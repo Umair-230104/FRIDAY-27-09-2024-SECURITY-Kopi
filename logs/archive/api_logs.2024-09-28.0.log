@@ -1,0 +1,4 @@
+19:11:31.355 [JettyServerThreadPool-28] ERROR d.lyngby.controller.HotelController - 500 Cannot invoke "java.util.List.stream()" because the return value of "dk.lyngby.entities.Hotel.getRooms()" is null 
+19:11:31.358 [JettyServerThreadPool-28] ERROR d.l.controller.ExceptionController - 200: Cannot invoke "java.util.List.stream()" because the return value of "dk.lyngby.entities.Hotel.getRooms()" is null
+19:17:48.513 [JettyServerThreadPool-28] ERROR d.lyngby.controller.HotelController - 500 Cannot invoke "java.util.List.stream()" because the return value of "dk.lyngby.entities.Hotel.getRooms()" is null 
+19:17:48.514 [JettyServerThreadPool-28] ERROR d.l.controller.ExceptionController - 200: Cannot invoke "java.util.List.stream()" because the return value of "dk.lyngby.entities.Hotel.getRooms()" is null

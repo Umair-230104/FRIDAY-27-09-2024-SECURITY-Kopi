@@ -1,0 +1,9 @@
+12:07:45.174 [JettyServerThreadPool-28] ERROR d.l.controller.DogControllerImpl - 400 Unrecognized field "dogNamevwsvwe" (class dk.lyngby.dto.DogDto), not marked as ignorable (4 known properties: "dogBreed", "dogAge", "dogGender", "dogName"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 21] (through reference chain: dk.lyngby.dto.DogDto["dogNamevwsvwe"]) 
+12:07:45.175 [JettyServerThreadPool-28] ERROR d.l.controller.ExceptionController - 200: Unrecognized field "dogNamevwsvwe" (class dk.lyngby.dto.DogDto), not marked as ignorable (4 known properties: "dogBreed", "dogAge", "dogGender", "dogName"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 21] (through reference chain: dk.lyngby.dto.DogDto["dogNamevwsvwe"])
+23:28:14.337 [main] INFO  dk.lyngby.Main - Created hotel: Hotel(id=1, name=Hotel California, address=Sunset Boulevard, rooms=[])
+23:29:04.960 [main] INFO  dk.lyngby.Main - Created hotel: Hotel(id=null, name=Hotel California, address=Sunset Boulevard, rooms=[])
+23:29:05.310 [main] INFO  dk.lyngby.Main - All hotels: []
+23:29:28.204 [main] INFO  dk.lyngby.Main - Created hotel: Hotel(id=1, name=Hotel California, address=Sunset Boulevard, rooms=[])
+23:30:22.463 [main] INFO  dk.lyngby.Main - Created hotel: Hotel(id=2, name=Hotel California, address=Sunset Boulevard, rooms=[])

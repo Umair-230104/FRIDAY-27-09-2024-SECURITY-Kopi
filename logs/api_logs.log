@@ -1,0 +1,7 @@
+11:00:00.621 [JettyServerThreadPool-22] ERROR d.l.controller.ExceptionController - 200: Unauthorized with roles: [user]. Needed roles are: [ADMIN]
+11:00:05.894 [JettyServerThreadPool-27] ERROR d.l.controller.ExceptionController - 200: Unauthorized with roles: [user]. Needed roles are: [ADMIN]
+11:03:22.131 [JettyServerThreadPool-28] ERROR d.lyngby.controller.HotelController - 400 Cannot deserialize value of type `dk.lyngby.dto.HotelDTO` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1] 
+11:03:22.132 [JettyServerThreadPool-28] ERROR d.l.controller.ExceptionController - 200: Cannot deserialize value of type `dk.lyngby.dto.HotelDTO` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+11:15:50.352 [JettyServerThreadPool-22] ERROR d.l.controller.ExceptionController - 200: Unauthorized with roles: [user]. Needed roles are: [ADMIN]

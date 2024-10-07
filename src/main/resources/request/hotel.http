@@ -1,0 +1,39 @@
+### Get all hotels
+GET {{URL}}
+
+### Get hotel by ID
+GET {{URL}}/1
+
+### Get rooms for a specific hotel
+GET {{URL}}/rooms/1
+
+### Create a new hotel
+POST {{URL}}
+Content-Type: application/json
+
+{
+  "name": "Hotel 1",
+  "address": "Address 1",
+  "rooms": [
+    {
+      "number": 1,
+      "price": 100.0
+    },
+    {
+      "number": 2,
+      "price": 200.0
+    }
+  ]
+}
+
+### Update a hotel by ID
+PUT {{URL}}/1
+Content-Type: application/json
+
+{
+  "name": "UPDATED Hotel 1",
+  "address": "Address 1"
+}
+
+### Delete a hotel by ID
+DELETE {{URL}}/1
